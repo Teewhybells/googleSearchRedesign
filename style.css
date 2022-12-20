@@ -133,6 +133,87 @@ button svg {
     box-shadow: inset 0 2px 0 rgba(0, 0, 0, 0.15);
 }
 
+.Name{
+    font-size: medium;
+}
+.oval {
+  height: 50px;
+  width: 100px;
+  background-color: rgb(187, 179, 179);
+  border-radius: 45%
+  }
+
+  #result-info {
+	position: absolute;
+	top: 45px;
+	left: 800px;
+	width: 420px;
+	border-radius: var(--radius-alt);
+	background-color: var(--background-alt);
+	box-shadow: var(--close-shadow);
+}
+
+#result-info #info-header {
+	display: flex;
+	justify-content: space-between;
+	padding: 30px 30px 20px;
+}
+
+#result-info #info-header #header-name {
+	display: flex;
+	flex-direction: column;
+}
+
+#result-info #info-header #header-name a {
+	text-decoration: none;
+	margin-top: 6px;
+}
+
+#result-info #info-header h1 {
+	font-size: 26px;
+	font-weight: 500;
+	color: var(--text);
+}
+
+#result-info #info-header h2 {
+	margin: 4px 0;
+	font-size: 14px;
+	font-weight: 400;
+	color: var(--text-alt);
+}
+
+#result-info #info-header img {
+	height: 100px;
+	width: 100px;
+}
+
+.container {
+    display: flex;
+    width: 6000px;
+    height: 300px;
+   
+}
+#object1 {
+    width: 200px;
+    height:300px;
+    
+    object-fit: none;
+    object-position: center top;
+    /* String value */
+}
+
+#object2 {
+    width: 200px;
+    height: 300px;
+   
+    object-fit: none;
+    object-position: 50px 30px;
+    /* Numeric value */
+}
+.padded img { 
+    padding:0rem;
+    
+  } 
 nav {
     align-items: center;
     display: flex;
